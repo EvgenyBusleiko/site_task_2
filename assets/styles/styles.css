@@ -28,12 +28,11 @@ h1{
 .header_left{
     display: flex;
     
+    
     }
 .header_first{
     
-    /* border: 1px solid white;
-    background-color: white; */
-    /* margin-left: 231px; */
+    margin-left: 150px; 
     margin-top:  18px;
     margin-bottom: 19px;
     
@@ -42,12 +41,11 @@ h1{
 
 }  
 .header_second{
-    /* border: 1px solid white;
-    background-color: white; */
+    
     margin-top:  28px;
     margin-bottom: 20px;
     margin-left: 41px;
-    /* margin-right: 400px; */
+    margin-right: 800px;
     
 
 }
@@ -55,7 +53,9 @@ h1{
     
     margin-top:  26px;
     margin-bottom: 20px;
-    margin-left: 760px;
+    margin-right: 231px;
+    
+    
     
     
 
@@ -119,8 +119,8 @@ h1{
 .offer{
     
     
+    padding-top: 65px ;
     
-    margin: 65px 230px 0px 230px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr) ;
@@ -218,6 +218,7 @@ h1{
 
 }
 .products{
+    
     
     
    
