@@ -139,37 +139,28 @@ h1{
     
 }
 .offer_block_w{
-    
-    height: 260px;   
+    height: 260px;
+       
     background-image: url("../pictures/for_women_pic.png");
     
 }
 .offer_block_m{
-    
+    height: 260px;
     background-image: url("../pictures/for_men_pic.jpg");
 }
 .offer_block_k{
-    background-image: url("../pictures/for_kids_pic.png");
-    position: relative; 
-      
+    
+    position: relative;
+    transition: background-color 0.2s; 
+    background-image: url("../pictures/for_kids_pic.png"); 
 }
-.offer_block_k:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;    
-    background-image: url("../pictures/for_kids_pic.png");
+
+
+.offer_block_k:hover{
+    background-image: url("../pictures/for_kids_dark.jpg");
     
 }
-.offer_block_k:after{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(33, 22, 22, 0.70);
-}
+
 .wide_block{
     
     grid-column: 1/4;
