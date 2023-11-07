@@ -329,10 +329,8 @@ justify-content: center;
     
 }
 .after_botton_pic{
-    width: 40px;
-    height: 40px;
-    margin-top: 103px;
-    margin-bottom: 28px;
+   
+    margin: 103px 157px 28px 158px;
 }
 .after_botton_text{
     display: flex;
@@ -366,4 +364,100 @@ justify-content: center;
     font-weight: 300;
     line-height: normal;
     
+}
+.face{
+    display: flex;
+    max-width: 1600px;
+    
+    background-image: url(../pictures/photo\ subscribe.png);
+    gap: 238px;
+    justify-content: center;
+}
+.face_card{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 126px;
+}
+.face_card_pic{
+    margin: 97px 142px 30px 122px;
+}
+.face_card_text{
+    width: 360px;
+    color: #222224;
+
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.face_card_text_it{
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;   
+}
+.face_card_2{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap:32px; */
+    
+}
+.face_card_big_text{
+    
+    color: #222224;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+
+}
+.face_card_big_text_thin{
+    
+    color: #222224;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 167.2%;
+}
+.face_card_wrapper{
+    margin-top: 28px;
+    display: flex;
+}
+footer {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #222224;
+    gap: 635px;
+}
+.footer_text{
+    margin: 30px 0 30px auto;
+    color: #FBFBFB;
+    justify-content: center;
+
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.icon{
+    margin: 24px auto 23px 0;
 }
