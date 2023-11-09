@@ -64,10 +64,10 @@ h1{
 }
 .first_block{
    max-width: 1600px;
-    /* height: 764px; */
+    
     
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* overflow-y: scroll; */
     background-color:#F1E4E6;
       
@@ -461,3 +461,141 @@ line-height: normal;
 .icon{
     margin: 24px auto 23px 0;
 }
+@media (min-width: 768px) and (max-width: 1439px) {
+    .for_all_blocks{
+        max-width: 768px;
+        margin:0 auto;
+    }
+    .header_second{
+    
+        margin-top:  28px;
+        margin-bottom: 20px;
+        margin-left: 41px;
+        margin-right: 424px;
+        
+    
+    }
+    .header_first{
+    
+        margin-left: 32px; 
+        margin-top:  18px;
+        margin-bottom: 19px;
+        
+        
+        
+    
+    }  
+    .first_block{
+        height: 386px;
+    }
+    .first_block_left{
+        width: 386px;
+         
+       
+    }
+    .first_block_right{
+        display: flex;
+        
+        gap: 16px;
+        margin-left: 33px; 
+        margin-bottom: 138px; 
+        margin-top: 138px;
+        
+    }
+    .first_block_right_text{
+        justify-content: flex-start;
+    }
+    .first_block_right_text_1{
+    
+        color: #222;
+        font-family: Lato;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        
+    }
+    .first_block_right_text_2{
+        color: #222;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .offer_block{
+        
+        height: 168px;
+        background-size: 100%;
+        
+    }
+    .wide_block{
+        height: 116px;
+        background-size: 100%;  
+    }
+    .block_3{
+        gap: 3,3px;
+        margin-bottom: 72px;
+        margin-top: 106px;
+    }
+    .products{
+    
+    
+    
+   
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr) ;
+        
+        column-gap: 30px;
+        row-gap: 25px;
+        
+    
+    }
+
+.after_button{
+
+
+
+flex-direction: column;
+
+gap: 0;
+
+align-items: normal;
+
+}
+/* .after_button_card{
+margin-bottom: 37px;
+} */
+.after_botton_pic{
+    margin-top: 48px;
+}
+.face{
+    
+    flex-direction: column;
+    gap: 48px;
+    background-size: cover;
+    padding-bottom: 140px;
+
+}
+.face_card{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+     padding-bottom: 48px;
+}
+
+.face_card_pic{
+    margin: 64px 325px 30px 325px;
+}
+.face_card_wrapper{
+    margin-top: 34px;
+    display: flex;
+}
+footer {
+    max-width: 768px;
+    gap: 305px;
+}
+}
+    
