@@ -463,8 +463,18 @@ line-height: normal;
 }
 @media (min-width: 768px) and (max-width: 1439px) {
     .for_all_blocks{
-        max-width: 768px;
-        margin:0 auto;
+        max-width: 1024px;
+        margin:0 16px 0 16px;
+    }
+    .header_right{
+    
+        padding-left: auto;
+        padding-right:20px;
+        
+        
+        
+        
+    
     }
     .header_second{
     
@@ -523,6 +533,10 @@ line-height: normal;
         font-weight: 700;
         line-height: normal;
     }
+    .offer{
+        max-width: 768px;
+        margin: 0 auto 0 auto;
+    }
     .offer_block{
         
         height: 168px;
@@ -539,14 +553,15 @@ line-height: normal;
         margin-top: 106px;
     }
     .products{
-    
+        max-width: 768px;
+        margin: 0 auto 0 auto;
     
     
    
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,1fr) ;
-        
+        align-items: center;
         column-gap: 30px;
         row-gap: 25px;
         
@@ -554,7 +569,7 @@ line-height: normal;
     }
 
 .after_button{
-
+max-width: 1024px;
 
 
 flex-direction: column;
@@ -571,7 +586,7 @@ margin-bottom: 37px;
     margin-top: 48px;
 }
 .face{
-    
+    max-width: 1024px;
     flex-direction: column;
     gap: 48px;
     background-size: cover;
@@ -594,7 +609,8 @@ margin-bottom: 37px;
     display: flex;
 }
 footer {
-    max-width: 768px;
+    max-width: 1024px;
+    margin: 0 16px;
     gap: 305px;
 }
 }
