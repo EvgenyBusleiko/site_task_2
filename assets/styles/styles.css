@@ -111,9 +111,42 @@ line-height: normal;
     
 }
 .header_right2{
-    margin-left: 24px;
+    
+    margin-left: 25px;
     margin-right: 42px;
 }
+
+.header_right3{
+    position: relative;
+  
+}
+.header_right3::after{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    left: 25px;
+    content: '5';
+    width: 19px;
+    height: 19px;
+    background-color: #F16D7F;
+    border-radius: 10px;
+    color: #FFF;
+
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+
+
+}
+
+
 .first_block{
    max-width: 1600px;
     
@@ -286,7 +319,7 @@ line-height: normal;
     
     
     
-   
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr) ;
@@ -297,6 +330,7 @@ line-height: normal;
 
 }
 .product_block{
+    margin: 0 8px; overflow: hidden;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -464,7 +498,7 @@ justify-content: center;
 
 }
 .after_botton_discription{
-    width: 360px;
+    
     padding-left: 16px;
     padding-right: 28px;
     
@@ -626,18 +660,16 @@ line-height: normal;
 .footer_button{
     width: 32px;
     height: 32px;
+    fill:black;
 }
 
-.social_logo:hover .footer_button{
+.footer_button:hover {
     background-color:#F16D7F; 
-    color:  #FBFBFB;
+    fill:  #FBFBFB;
     
     
 }
-.social_logo:hover .button_logo{
-    fill: #FBFBFB;
 
-    }
 
 @media (min-width: 768px) and (max-width: 1439px) {
     .for_all_blocks{
@@ -787,8 +819,8 @@ margin-bottom: 37px;
     display: flex;
 }
 footer {
-    max-width: 1024px;
-    margin: 0 16px;
+    max-width: 1440px;
+    margin: 0 auto;
     gap: 305px;
 }
 }
